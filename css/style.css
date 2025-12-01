@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0
+}
+
+.header h1{
+    color: rgb(11, 134, 119);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service,.service-box{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.box-{
+    background-color:rgb(11, 134, 119);
+    width: 10px;
+    height: 15px;
+}
+
+h3,p{
+    padding: 5px;
+}
+
+h3{ 
+    color: rgb(11, 134, 119);
+    border-left: solid 10px;
+    border-color:  rgb(11, 134, 119);
+    margin: 5px;
+}
+
+@media screen and (max-width: 400px){
+    .service,.service-box{
+        display: block;
+    }
+
+    li{
+        margin: 20px 10px;
+    }
+    
+}
